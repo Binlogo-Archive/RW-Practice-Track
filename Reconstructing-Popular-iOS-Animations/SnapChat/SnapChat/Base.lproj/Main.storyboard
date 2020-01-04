@@ -61,7 +61,7 @@
                                     <segue destination="ei8-Mf-XBp" kind="embed" id="PiA-8F-YBY"/>
                                 </connections>
                             </containerView>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="noZ-KD-1CU" customClass="NavigationView" customModule="Snapchat" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="noZ-KD-1CU" customClass="NavigationView" customModule="SnapChat" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <subviews>
                                     <view opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eZK-Z4-M38">
@@ -321,7 +321,7 @@
         <!--Chat View Controller-->
         <scene sceneID="ZlQ-cD-obz">
             <objects>
-                <viewController storyboardIdentifier="ChatViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="MnG-2y-D31" customClass="ChatViewController" customModule="Snapchat" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ChatViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="MnG-2y-D31" customClass="ChatViewController" customModule="SnapChat" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="e4S-UE-yF8"/>
                         <viewControllerLayoutGuide type="bottom" id="pwa-cA-VyX"/>
@@ -381,7 +381,7 @@
         <!--Lens View Controller-->
         <scene sceneID="cer-nq-s90">
             <objects>
-                <viewController storyboardIdentifier="LensViewController" id="iRZ-eD-hvg" customClass="LensViewController" customModule="Snapchat" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LensViewController" id="iRZ-eD-hvg" customClass="LensViewController" customModule="SnapChat" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="OHY-Hi-WCl"/>
                         <viewControllerLayoutGuide type="bottom" id="ak9-3v-cfb"/>
@@ -410,7 +410,7 @@
         <!--Stories View Controller-->
         <scene sceneID="hB4-VY-bnb">
             <objects>
-                <viewController storyboardIdentifier="StoriesViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="hN7-Fl-ifE" customClass="StoriesViewController" customModule="Snapchat" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="StoriesViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="hN7-Fl-ifE" customClass="StoriesViewController" customModule="SnapChat" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="LVw-sg-YBb"/>
                         <viewControllerLayoutGuide type="bottom" id="Duf-oW-2vm"/>

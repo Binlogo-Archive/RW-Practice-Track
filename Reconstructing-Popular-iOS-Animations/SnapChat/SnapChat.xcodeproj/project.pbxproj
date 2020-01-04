@@ -19,6 +19,7 @@
 		647EB16123C092D80025626E /* LensViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647EB16023C092D80025626E /* LensViewController.swift */; };
 		647EB16323C093200025626E /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647EB16223C093200025626E /* ChatViewController.swift */; };
 		647EB16523C0935F0025626E /* StoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647EB16423C0935F0025626E /* StoriesViewController.swift */; };
+		647EB16723C095570025626E /* NavigationView+Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647EB16623C095570025626E /* NavigationView+Animation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		647EB16023C092D80025626E /* LensViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LensViewController.swift; sourceTree = "<group>"; };
 		647EB16223C093200025626E /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 		647EB16423C0935F0025626E /* StoriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoriesViewController.swift; sourceTree = "<group>"; };
+		647EB16623C095570025626E /* NavigationView+Animation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NavigationView+Animation.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 				647EB14923C07F3A0025626E /* ViewController.swift */,
 				647EB15923C082B10025626E /* ScrollViewController.swift */,
 				647EB15E23C08E730025626E /* NavigationView.swift */,
+				647EB16623C095570025626E /* NavigationView+Animation.swift */,
 				647EB15B23C08DD20025626E /* Controllers */,
 				647EB14B23C07F3A0025626E /* Main.storyboard */,
 				647EB14E23C07F3B0025626E /* Assets.xcassets */,
@@ -169,6 +172,7 @@
 				647EB16123C092D80025626E /* LensViewController.swift in Sources */,
 				647EB16323C093200025626E /* ChatViewController.swift in Sources */,
 				647EB15D23C08DE60025626E /* CameraViewController.swift in Sources */,
+				647EB16723C095570025626E /* NavigationView+Animation.swift in Sources */,
 				647EB14623C07F3A0025626E /* AppDelegate.swift in Sources */,
 				647EB14823C07F3A0025626E /* SceneDelegate.swift in Sources */,
 				647EB15F23C08E730025626E /* NavigationView.swift in Sources */,

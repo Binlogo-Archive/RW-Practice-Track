@@ -62,6 +62,36 @@ class NavigationView: UIView {
       return self.cameraButtonView.transform
     }()
     
+    func animate(to controller: UIViewController?, percent: CGFloat) {
+        let offset = abs(percent)
+        // Background color view
+        if let controller = controller as? ColoredView {
+            colorView.backgroundColor = controller.controllerColor
+        }
+        
+        // animation starts at 0.2 of the way across
+        // and is fully faded in at 0.8
+        var colorOffset = (offset - 0.2) / (0.8 - 0.2)
+        colorOffset = min(max(colorOffset, 0), 1)
+        colorView.alpha = colorOffset
+        
+        // fade white to gray
+        cameraButtonWhiteView.alpha = 1 - offset
+        cameraButtonGrayView.alpha = offset
+        
+        animateIconColor(offset: offset)
+        
+        animateIconPosition(offset: offset)
+        animateIconScale(offset: offset)
+        animateIconCenter(offset: offset)
+        
+        animateIconText(offset: offset)
+        
+        animateBottomBar(percent: percent)
+        
+        layoutIfNeeded()
+    }
+    
     // MARK: - View Life Cycle
     override func layoutSubviews() {
         super.layoutSubviews()
