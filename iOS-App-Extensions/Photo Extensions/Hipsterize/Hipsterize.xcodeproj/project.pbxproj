@@ -14,7 +14,38 @@
 		647EB1B823C198A90025626E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 647EB1B723C198A90025626E /* Assets.xcassets */; };
 		647EB1BB23C198A90025626E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 647EB1B923C198A90025626E /* LaunchScreen.storyboard */; };
 		647EB1C323C199E40025626E /* Hipsterize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647EB1C223C199E40025626E /* Hipsterize.swift */; };
+		647EB1CB23C19D5A0025626E /* PhotosUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 647EB1CA23C19D5A0025626E /* PhotosUI.framework */; };
+		647EB1CD23C19D5A0025626E /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 647EB1CC23C19D5A0025626E /* Photos.framework */; };
+		647EB1D023C19D5A0025626E /* PhotoEditingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647EB1CF23C19D5A0025626E /* PhotoEditingViewController.swift */; };
+		647EB1D323C19D5A0025626E /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 647EB1D123C19D5A0025626E /* MainInterface.storyboard */; };
+		647EB1D723C19D5A0025626E /* Photo Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 647EB1C823C19D5A0025626E /* Photo Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		647EB1DC23C19D7E0025626E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 647EB1B723C198A90025626E /* Assets.xcassets */; };
+		647EB1DD23C1A8220025626E /* Hipsterize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647EB1C223C199E40025626E /* Hipsterize.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		647EB1D523C19D5A0025626E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 647EB1A323C198A80025626E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 647EB1C723C19D5A0025626E;
+			remoteInfo = "Photo Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		647EB1DB23C19D5A0025626E /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				647EB1D723C19D5A0025626E /* Photo Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		647EB1AB23C198A80025626E /* Hipsterize.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hipsterize.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -26,6 +57,12 @@
 		647EB1BA23C198A90025626E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		647EB1BC23C198A90025626E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		647EB1C223C199E40025626E /* Hipsterize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hipsterize.swift; sourceTree = "<group>"; };
+		647EB1C823C19D5A0025626E /* Photo Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Photo Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		647EB1CA23C19D5A0025626E /* PhotosUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PhotosUI.framework; path = System/Library/Frameworks/PhotosUI.framework; sourceTree = SDKROOT; };
+		647EB1CC23C19D5A0025626E /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
+		647EB1CF23C19D5A0025626E /* PhotoEditingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoEditingViewController.swift; sourceTree = "<group>"; };
+		647EB1D223C19D5A0025626E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		647EB1D423C19D5A0025626E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +73,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		647EB1C523C19D5A0025626E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				647EB1CB23C19D5A0025626E /* PhotosUI.framework in Frameworks */,
+				647EB1CD23C19D5A0025626E /* Photos.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -43,6 +89,8 @@
 			isa = PBXGroup;
 			children = (
 				647EB1AD23C198A80025626E /* Hipsterize */,
+				647EB1CE23C19D5A0025626E /* Photo Extension */,
+				647EB1C923C19D5A0025626E /* Frameworks */,
 				647EB1AC23C198A80025626E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -51,6 +99,7 @@
 			isa = PBXGroup;
 			children = (
 				647EB1AB23C198A80025626E /* Hipsterize.app */,
+				647EB1C823C19D5A0025626E /* Photo Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -70,6 +119,25 @@
 			path = Hipsterize;
 			sourceTree = "<group>";
 		};
+		647EB1C923C19D5A0025626E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				647EB1CA23C19D5A0025626E /* PhotosUI.framework */,
+				647EB1CC23C19D5A0025626E /* Photos.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		647EB1CE23C19D5A0025626E /* Photo Extension */ = {
+			isa = PBXGroup;
+			children = (
+				647EB1CF23C19D5A0025626E /* PhotoEditingViewController.swift */,
+				647EB1D123C19D5A0025626E /* MainInterface.storyboard */,
+				647EB1D423C19D5A0025626E /* Info.plist */,
+			);
+			path = "Photo Extension";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -80,15 +148,34 @@
 				647EB1A723C198A80025626E /* Sources */,
 				647EB1A823C198A80025626E /* Frameworks */,
 				647EB1A923C198A80025626E /* Resources */,
+				647EB1DB23C19D5A0025626E /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				647EB1D623C19D5A0025626E /* PBXTargetDependency */,
 			);
 			name = Hipsterize;
 			productName = Hipsterize;
 			productReference = 647EB1AB23C198A80025626E /* Hipsterize.app */;
 			productType = "com.apple.product-type.application";
+		};
+		647EB1C723C19D5A0025626E /* Photo Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 647EB1D823C19D5A0025626E /* Build configuration list for PBXNativeTarget "Photo Extension" */;
+			buildPhases = (
+				647EB1C423C19D5A0025626E /* Sources */,
+				647EB1C523C19D5A0025626E /* Frameworks */,
+				647EB1C623C19D5A0025626E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Photo Extension";
+			productName = "Photo Extension";
+			productReference = 647EB1C823C19D5A0025626E /* Photo Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -101,6 +188,9 @@
 				ORGANIZATIONNAME = WangXingbin;
 				TargetAttributes = {
 					647EB1AA23C198A80025626E = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					647EB1C723C19D5A0025626E = {
 						CreatedOnToolsVersion = 11.3;
 					};
 				};
@@ -119,6 +209,7 @@
 			projectRoot = "";
 			targets = (
 				647EB1AA23C198A80025626E /* Hipsterize */,
+				647EB1C723C19D5A0025626E /* Photo Extension */,
 			);
 		};
 /* End PBXProject section */
@@ -131,6 +222,15 @@
 				647EB1BB23C198A90025626E /* LaunchScreen.storyboard in Resources */,
 				647EB1B823C198A90025626E /* Assets.xcassets in Resources */,
 				647EB1B623C198A80025626E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		647EB1C623C19D5A0025626E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				647EB1DC23C19D7E0025626E /* Assets.xcassets in Resources */,
+				647EB1D323C19D5A0025626E /* MainInterface.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -148,7 +248,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		647EB1C423C19D5A0025626E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				647EB1DD23C1A8220025626E /* Hipsterize.swift in Sources */,
+				647EB1D023C19D5A0025626E /* PhotoEditingViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		647EB1D623C19D5A0025626E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 647EB1C723C19D5A0025626E /* Photo Extension */;
+			targetProxy = 647EB1D523C19D5A0025626E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		647EB1B423C198A80025626E /* Main.storyboard */ = {
@@ -165,6 +282,14 @@
 				647EB1BA23C198A90025626E /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		647EB1D123C19D5A0025626E /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				647EB1D223C19D5A0025626E /* Base */,
+			);
+			name = MainInterface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -287,6 +412,7 @@
 		647EB1C023C198A90025626E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Hipsterize/Info.plist;
@@ -304,6 +430,7 @@
 		647EB1C123C198A90025626E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Hipsterize/Info.plist;
@@ -313,6 +440,42 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.wangxingbin..Hipsterize;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		647EB1D923C19D5A0025626E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Photo Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wangxingbin..Hipsterize.Photo-Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		647EB1DA23C19D5A0025626E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Photo Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wangxingbin..Hipsterize.Photo-Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -335,6 +498,15 @@
 			buildConfigurations = (
 				647EB1C023C198A90025626E /* Debug */,
 				647EB1C123C198A90025626E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		647EB1D823C19D5A0025626E /* Build configuration list for PBXNativeTarget "Photo Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				647EB1D923C19D5A0025626E /* Debug */,
+				647EB1DA23C19D5A0025626E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
