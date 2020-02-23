@@ -69,7 +69,23 @@ Create a new photo asset with a collage of the selected images, save it to the S
 
 
 
+## P02E03 Edit Collages Using Existing Adjustment Data
 
+"Favorite," "unfavorite" and delete images; set the photo picker's selected image set to the assets referenced in the collage's adjustment data so the user can edit the selections to update the collage.
+
+* Setup edit & favorite action button
+* Favorite the image
+  * `PHAssetChangeRequest(for:)`
+    * `.isFavorite`
+* Delete the image
+  * `PHAssetChangeRequest.deleteAssets`
+* Edit the image
+  * Load asssets in stitch
+    * `PHContentEditingInputRequestOptions`
+      * `.canHandleAdjustData`
+    * `PHAsset`
+      * `.requestContentEditingInput(with:)`
+  * Edit content, change the adjustment data, then perform changes.
 
 
 
