@@ -38,3 +38,6 @@ Create a photo album for the collages (i.e. "Stitches") or fetch the album if it
 
 
 
+## Copyright
+
+The source materials from [raywenderlich.com/](https://www.raywenderlich.com/) are Copyright (c) 2020 Razeware LLC
