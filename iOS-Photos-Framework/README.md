@@ -89,6 +89,21 @@ Create a new photo asset with a collage of the selected images, save it to the S
 
 
 
+## P02E04 Observe Photo Library Changes to Update UI
+
+Implement observers to detect changes in the device's photo library, then update the app's photo preview, table view and collection view appropriately.
+
+* Register observer
+  * `PHPhotoLibrary.shared().register(self)`
+  * ⚠️ Don't forget to unregister.
+* Handle the delegate to detect changes
+  * `PHPhotoLibraryChangeObserver`
+  * `PHChange`
+    * `changeDetails(for:)`
+  * Use main queue if UI update needed
+
+
+
 ## Copyright
 
 The source materials from [raywenderlich.com/](https://www.raywenderlich.com/) are Copyright (c) 2020 Razeware LLC
