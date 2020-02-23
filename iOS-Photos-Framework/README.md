@@ -1,6 +1,6 @@
 # iOS Photo Framework
 
-Notes from [video course](https://www.raywenderlich.com/7910383-ios-photos-framework) of iOS Photo Framework. 
+Notes of  [video course](https://www.raywenderlich.com/7910383-ios-photos-framework) of iOS Photo Framework. 
 
 
 
@@ -66,6 +66,10 @@ Create a new photo asset with a collage of the selected images, save it to the S
     * `addAssets`
 * Display the collage image
 * Q: How to observe Photo Library changes?
+
+
+
+
 
 
 
