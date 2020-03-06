@@ -78,3 +78,44 @@ Learn about drawing text and images into the context.
   * UIColor(patternImage:)
     * setFill()
   * UIRectFill()
+
+
+
+## PDF Printing
+
+Create a PDF file. We’ll create a budget report that you could then share.
+
+* PDF: Portable Document Format
+
+  * Looks like a printed document
+  * Indepentent of operating systems and hardware
+  * `UIGraphicsBeginPDFContextToData(_:_:_:_:)`
+  * `UIGraphicsBeginPDFContextToFile(_:_:_:_:)`
+
+* PDF Creation
+
+  * documentInfo: [String: String], kCGPDFContextXXXX
+  * `UIGraphicsBeginPDFContextToFile(_:_:_:_:)`
+  * `UIGraphicsBeginPDFPage()`
+  * `UIGraphicsEndPDFContext()`
+
+* Reading PDFs
+
+  * Use UIWebView
+    * webView.loadRequest
+
+* Rendering PDFs
+
+  * CGPDFDocumentCreateWithURL
+  * CGPDFDocumentGetNumberOfPages
+
+  * CGPDFDocuemtnGetPage
+
+* Draw PDF
+
+  * CGContextTranslateCTM() + CGContextScaleCTM
+  * CGContextDrawPDFPage()
+
+* Demo: Create a report
+
+  * UIView.layer.renderInContext
