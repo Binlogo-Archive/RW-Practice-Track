@@ -32,3 +32,23 @@ Learn about transforms and how to rotate and scale paths and contexts. Become a 
 * CGContextGetCTM
   * ⚠️ total context
 
+
+
+## Shadows
+
+Learn about how to draw shadows and composite them using transparency layers.
+
+* Not UIKit wrapped
+  * CGContextSetShadowWithColor(_:_:_:)
+* color
+* shadow offset
+* blur radius
+* Shadow with Stroke
+* Transparency Layers
+  * CGContextBeginTransparencyLayer
+  * CGContextEndTransparencyLayer
+* Demo: Add shadow to pi chart
+* Save and restore context
+  * CGContextSaveGState
+  * CGContextRestoreGState
+
