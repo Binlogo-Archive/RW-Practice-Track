@@ -52,3 +52,29 @@ Learn about how to draw shadows and composite them using transparency layers.
   * CGContextSaveGState
   * CGContextRestoreGState
 
+
+
+## Drawing Text and Images
+
+Learn about drawing text and images into the context.
+
+* Text and Image Drawing
+  * drawAtPoint(_:withAttributes:)
+  * drawInRect(_:withAttributes:)
+* Sizing Text
+  * sizeWithAttributes(:)
+* Patterns
+  * UIColor(patternImage:)
+* Demo: Draw category keys to pi chart
+  * Save and restore context
+    * CGContextSaveGState
+    * CGContextRestoreGState
+  * Draw Text
+  * Draw Image
+    * UIGraphicsBeginImageContextWithOptions
+    * UIGraphicsGetImageFromCurrentImageContext()
+    * UIGraphicsEndImageContext()
+  * drawAsPatternInRect
+  * UIColor(patternImage:)
+    * setFill()
+  * UIRectFill()
