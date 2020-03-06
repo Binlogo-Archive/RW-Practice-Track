@@ -16,3 +16,19 @@ Learn how to create gradients to make your app more appealing.
   * addClip()
 * CGPathCreateCopyByStrokingPath
 
+
+
+## Transform
+
+Learn about transforms and how to rotate and scale paths and contexts. Become a master of the Context Transformation Matrix.
+
+* What is a Transform?
+  * A matrix
+  * holds position, scale and rotation
+  * UIView: **CGAffineTransform transform** property
+  * Context: **CGContextGetCTM** function
+* Demo: A pi chart
+* UIBezierPath.applyTransform
+* CGContextGetCTM
+  * ⚠️ total context
+
