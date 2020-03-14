@@ -2,7 +2,7 @@
 
 Notes of  [video course](https://www.raywenderlich.com/7910383-ios-photos-framework) of iOS Photo Framework. 
 
-
+![](https://files.betamax.raywenderlich.com/attachments/collections/229/af5865b5-0ef0-4878-a36a-34972275b674.png)
 
 ## Environment
 
@@ -21,6 +21,22 @@ Notes of  [video course](https://www.raywenderlich.com/7910383-ios-photos-framew
 - Creating photo albums
 - Editing assets
 - Observing & responding to photo library changes
+
+
+
+## P01E01 Fetch Photos from Photo Library
+
+Learn how to request device photo library permissions from the user, then fetch the photo library's collections when authorized.
+
+* PHObject
+  * PHAsset
+  * PHAssetCollection
+  * PHAssetCollectionList
+* PHCollectionList.fetchTopLevelUserCollections
+  * with: AlbumTypes, subtype: AlbumSubtype
+* PHPhotoLibrary.requestAuthorization
+  * authorization status handle
+* Add Privacy description to Info.plist
 
 
 
