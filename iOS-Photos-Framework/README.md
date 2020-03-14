@@ -69,6 +69,16 @@ In this episode, learn how to display the various image collection titles in the
 
 
 
+## P01E04 Create Photo Selection Capability
+
+Persist photo selections between asset picker collections such that selection checkmarks display appropriately.
+
+* collection view delegate: didSelect & didDeselect
+* update selected items
+* delegate of select assets
+
+
+
 ## P02E01 Create Collage Collection & Data Source
 
 Create a photo album for the collages (i.e. "Stitches") or fetch the album if it already exists, then set up a collection view to display that album's images.
