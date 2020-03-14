@@ -40,6 +40,22 @@ Learn how to request device photo library permissions from the user, then fetch 
 
 
 
+## P01E02 Set Up Asset Picker's Table View Data Source
+
+In this episode, learn how to display the various image collection titles in the asset picker's table view.
+
+* PHFetchResult<PHAssetCollection>
+  * .count
+* PHAssetCollection
+  * .localizedTitle
+  * estimatedAssetCount
+
+
+
+
+
+
+
 ## P02E01 Create Collage Collection & Data Source
 
 Create a photo album for the collages (i.e. "Stitches") or fetch the album if it already exists, then set up a collection view to display that album's images.
