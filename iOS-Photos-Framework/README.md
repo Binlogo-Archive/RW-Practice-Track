@@ -79,6 +79,30 @@ Persist photo selections between asset picker collections such that selection ch
 
 
 
+## P01E05 Cache to Optimize Scrolling
+
+Use PHCachingImageManager to cache the images in and adjacent to the visible scrolling window, then load the collection view's images from that cache.
+
+* numOfScreenAssetsToCache
+* PHCachingImageManager
+* cachedIndexed
+* lastCacheFrameCenter
+* cacheQueue
+* update Cache
+  * use scroll view delegate
+  * indexPathxForVisibleItems
+  * firstItemToCache
+  * lastItemToCache
+  * indexesToStartCaching
+  * imageManager.startCachingImages(for: targetSize: contentMode: options: )
+  * indexesToStopCaching
+  * imageManager.stopCachingImages(for: targetSize: contentMode: options: )
+    *  ⚠️ same parameters as start
+* assetsAtIndexPaths helper function
+* resetCache
+
+
+
 ## P02E01 Create Collage Collection & Data Source
 
 Create a photo album for the collages (i.e. "Stitches") or fetch the album if it already exists, then set up a collection view to display that album's images.
